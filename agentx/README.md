@@ -1,7 +1,7 @@
 # agentx
 
-Agent framework built with LangChain, LangGraph, and LangSmith: tool calling, RAG, deep research, human-in-the-loop, memory, context management, and a virtual filesystem.
+Agent framework built natively on [attnx](../attnx) and [basisx](../basisx) primitives: tool calling, RAG, deep research, human-in-the-loop, memory, context management, and a virtual filesystem.
 
 ## Related
 
-- **agentz** (planned): the same agent rebuilt on [attnx](../attnx)/[basisx](../basisx) primitives instead of LangChain, for benchmarking against agentx.
+- **[agentz](../agentz)**: the same agent built on LangChain, LangGraph, and LangSmith, for benchmarking against agentx.
