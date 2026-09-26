@@ -1,0 +1,19 @@
+# rust / go build output
+target/
+bin/
+
+# node
+node_modules/
+dist/
+.turbo/
+
+# env / os
+.env*
+.DS_Store
+*.log
+
+# local
+docs/
+makefile
+CLAUDE.md
+graphify-out/

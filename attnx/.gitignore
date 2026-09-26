@@ -1,0 +1,33 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# rust / cuda build output
+target/
+
+# node
+node_modules/
+dist/
+
+# ml checkpoints / experiment tracking
+checkpoints/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# env / os
+.env*
+.DS_Store
+*.log
+
+# local
+docs/
+makefile
+CLAUDE.md
+graphify-out/
